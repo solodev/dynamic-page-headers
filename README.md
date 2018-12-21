@@ -9,6 +9,8 @@ This folder will contain the ID in which you give to our shortcode.
 
 Ex: about-us.jpg
 
+It is also recommended to add a default.jpg, as that will be the fallback on any page names without correlated images.
+
 ## Step 3: Create a hero.tpl file with the shortcode.
 
 Your markup should look similar to this:
@@ -28,4 +30,8 @@ Your markup should look similar to this:
   </div>
 </header> 
 ```
+## Step 4: Use this hero.tpl file in any page with a correlated image.
 
+The shortode will dynamically grab any image with the name correlated. If there is no image, it will look for an image from its parent page.
+
+Example: /about-us/team.stml will first look for team.jpg, then for about-us.jpg. If neither of these are found, it will default to the default.jpg
