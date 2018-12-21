@@ -1,8 +1,14 @@
 # dynamic-page-headers
 
-## Step 1: Create the folder that you want to connect to your pages.
+## Prerequisites
+<ul>
+	<li><a target="_blank" href="https://getbootstrap.com/">Boostrap 4</a></li>
+</ul>
 
-This folder will contain the ID in which you give to our shortcode. 
+
+## Step 1: Create the folder in which you want to connect it's images to your pages.
+
+This folder will contain the ID in which you give to the shortcode. 
 
 
 ## Step 2: Upload the images into this folder, with names correlating the page titles.
