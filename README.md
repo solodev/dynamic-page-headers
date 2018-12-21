@@ -22,7 +22,7 @@ It is also recommended to add a default.jpg, as that will be the fallback on any
 Your markup should look similar to this:
 
 ```
-<header class="position-relative py-5 d-flex align-items-center text-center text-md-left" style='background: url([get_asset_from_folder path_id="64"]) center/cover no-repeat'>
+<header class="py-5 d-flex align-items-center text-center text-md-left" style='background: url([get_asset_from_folder path_id="64"]) center/cover no-repeat'>
 
   <div class="w-100 py-5">
     <div class="container">
