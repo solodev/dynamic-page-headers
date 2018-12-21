@@ -40,4 +40,4 @@ Your markup should look similar to this:
 
 The shortode will dynamically grab any image with the name correlated. If there is no image, it will look for an image from its parent page.
 
-Example: /about-us/team.stml will first look for team.jpg, then for about-us.jpg. If neither of these are found, it will default to the default.jpg
+Example: /about-us/team.stml will first look for team.jpg, then for about-us.jpg. If neither of these are found, it will default to the default.jpg.
