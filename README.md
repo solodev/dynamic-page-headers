@@ -6,7 +6,7 @@
 </ul>
 
 
-## Step 1: Create the folder in which you want to connect it's images to your pages.
+## Step 1: Create the folder in which you want to connect its images to your pages.
 
 This folder will contain the ID in which you give to the shortcode. 
 
